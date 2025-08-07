@@ -1,0 +1,106 @@
+{
+    "warfarin": {
+        "name": "Warfarin",
+        "class": "Anticoagulant",
+        "gender_risk": {
+            "female": {
+                "risk_multiplier": 1.5,
+                "reason": "Higher risk of bleeding complications",
+                "recommended_dose_adjustment": "-25%"
+            },
+            "male": {
+                "risk_multiplier": 1.0,
+                "reason": "Standard risk profile",
+                "recommended_dose_adjustment": "none"
+            }
+        },
+        "adverse_events": [
+            "Bleeding",
+            "INR elevation",
+            "Hematoma"
+        ],
+        "monitoring_parameters": [
+            "INR",
+            "PT",
+            "Platelet count"
+        ]
+    },
+    "zolpidem": {
+        "name": "Zolpidem",
+        "class": "Hypnotic",
+        "gender_risk": {
+            "female": {
+                "risk_multiplier": 2.0,
+                "reason": "Higher blood concentration due to slower metabolism",
+                "recommended_dose_adjustment": "-50%"
+            },
+            "male": {
+                "risk_multiplier": 1.0,
+                "reason": "Standard risk profile",
+                "recommended_dose_adjustment": "none"
+            }
+        },
+        "adverse_events": [
+            "Sedation",
+            "Dizziness",
+            "Respiratory depression"
+        ],
+        "monitoring_parameters": [
+            "Respiratory rate",
+            "Sedation scale",
+            "Cognitive function"
+        ]
+    },
+    "lisinopril": {
+        "name": "Lisinopril",
+        "class": "ACE Inhibitor",
+        "gender_risk": {
+            "female": {
+                "risk_multiplier": 1.2,
+                "reason": "Higher risk of hyperkalemia",
+                "recommended_dose_adjustment": "-10%"
+            },
+            "male": {
+                "risk_multiplier": 1.0,
+                "reason": "Standard risk profile",
+                "recommended_dose_adjustment": "none"
+            }
+        },
+        "adverse_events": [
+            "Hyperkalemia",
+            "Renal impairment",
+            "Angioedema"
+        ],
+        "monitoring_parameters": [
+            "Creatinine",
+            "Potassium",
+            "Renal function"
+        ]
+    },
+    "sertraline": {
+        "name": "Sertraline",
+        "class": "SSRI Antidepressant",
+        "gender_risk": {
+            "female": {
+                "risk_multiplier": 1.3,
+                "reason": "Higher risk of QTc prolongation",
+                "recommended_dose_adjustment": "-20%"
+            },
+            "male": {
+                "risk_multiplier": 1.0,
+                "reason": "Standard risk profile",
+                "recommended_dose_adjustment": "none"
+            }
+        },
+        "adverse_events": [
+            "QTc prolongation",
+            "Suicidal ideation",
+            "Sexual dysfunction"
+        ],
+        "monitoring_parameters": [
+            "QTc interval",
+            "Mood assessment",
+            "Sexual function"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+patient_id,gender,age,weight,height,drug,dose,start_date,end_date,response,adverse_event
+PAT00001,female,45,65,165,warfarin,5.0,2025-01-01,2025-01-30,good,No
+PAT00002,male,55,85,175,warfarin,5.0,2025-01-01,2025-01-30,good,No
+PAT00003,female,50,70,168,zolpidem,2.5,2025-01-01,2025-01-14,good,No
+PAT00004,male,48,80,172,zolpidem,5.0,2025-01-01,2025-01-14,good,No
+PAT00005,female,62,68,160,lisinopril,10.0,2025-01-01,2025-01-30,good,No
+PAT00006,male,65,85,175,lisinopril,10.0,2025-01-01,2025-01-30,good,No
+PAT00007,female,35,60,170,sertraline,50.0,2025-01-01,2025-01-30,good,No
+PAT00008,male,40,75,178,sertraline,50.0,2025-01-01,2025-01-30,good,No
+PAT00009,female,55,72,165,warfarin,5.0,2025-01-01,2025-01-30,poor,Yes
+PAT00010,male,60,88,180,warfarin,5.0,2025-01-01,2025-01-30,good,No
+PAT00011,female,48,65,163,zolpidem,2.5,2025-01-01,2025-01-14,poor,Yes
+PAT00012,male,52,82,175,zolpidem,5.0,2025-01-01,2025-01-14,good,No
+PAT00013,female,68,75,168,lisinopril,10.0,2025-01-01,2025-01-30,poor,Yes
+PAT00014,male,70,90,178,lisinopril,10.0,2025-01-01,2025-01-30,good,No
+PAT00015,female,42,63,165,sertraline,50.0,2025-01-01,2025-01-30,poor,Yes
+PAT00016,male,45,78,175,sertraline,50.0,2025-01-01,2025-01-30,good,No
